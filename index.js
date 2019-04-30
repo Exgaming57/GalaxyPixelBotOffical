@@ -28,7 +28,7 @@ fs.readdir("./Commands/", (err, files) => {
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
-  bot.user.setActivity("Exgaming57 make bots", {type: "WATCHING"})
+  bot.user.setActivity("People", {type: "WATCHING"})
 });
 
 //This makes it so the bot can't reposnd to messages in DM or it's own message
